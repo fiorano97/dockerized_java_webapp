@@ -5,4 +5,5 @@ CREATE TABLE person (
 	PRIMARY KEY (id)
 );
 
-insert into person (first_name, last_name) values ('Yuan', 'Ji');
+
+insert into person (first_name, last_name) values ('SK', 'Planet');

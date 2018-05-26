@@ -28,7 +28,7 @@
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <start-class>com.DemoApplication</start-class>
-        <docker.image.prefix>jiwhiz</docker.image.prefix>
+        <docker.image.prefix>fiorano97</docker.image.prefix>
     </properties>
 
 	<dependencies>
@@ -50,9 +50,9 @@
         </dependency>
 
 		<dependency>
-			<groupId>org.flywaydb</groupId>
-			<artifactId>flyway-core</artifactId>
-		</dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-core</artifactId>
+        </dependency>
 		<dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
