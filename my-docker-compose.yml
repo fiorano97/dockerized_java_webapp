@@ -15,5 +15,5 @@ mywas:
   ports:
     - 9090:8080
   links:
-    - mydb
+    - mydb:mysql
   container_name: mywas
