@@ -11,7 +11,7 @@ mydb:
     - //d/workspace_dc/tmp:/var/lib/mysql
   container_name: mydb
 mywas:
-  image: fiorano97/dockerized_java_webapp
+  image: dockerized_java_webapp:latest
   ports:
     - 9090:8080
   links:
