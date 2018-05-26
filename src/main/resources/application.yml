@@ -2,10 +2,13 @@ spring:
     jpa:
         database: MYSQL
         hibernate:
-            ddl-auto: update
+            ddl-auto: validate
+
 
     datasource:
         url: jdbc:mysql://192.168.99.100:3306/demo
         username: demo_user
         password: demo_pass
         driver-class-name: com.mysql.jdbc.Driver
+
+flyway.baselineOnMigrate: true
